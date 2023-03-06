@@ -1,0 +1,3 @@
+{
+  "plugins": ["babel-parser-experiment/parser-extension"]
+}
