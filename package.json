@@ -14,8 +14,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@babel/core": "link:../babel/packages/babel-core",
-    "@babel/parser": "link:../babel/packages/babel-parser",
+    "@babel/core": "^7.21.0",
+    "@ef4/glimmer-babel-parser": "7.21.2-experimental.0",
     "@rollup/plugin-babel": "^6.0.3",
     "rollup": "^3.18.0"
   }
