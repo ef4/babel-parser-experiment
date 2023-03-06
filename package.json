@@ -7,13 +7,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "pnpm rollup -c rollup.config.mjs --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@babel/core": "^7.21.0",
+    "@babel/core": "link:../babel/packages/babel-core",
+    "@babel/parser": "link:../babel/packages/babel-parser",
     "@rollup/plugin-babel": "^6.0.3",
     "rollup": "^3.18.0"
   }

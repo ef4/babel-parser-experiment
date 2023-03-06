@@ -1,1 +1,1 @@
-console.log('hello world');
+let myExample = someExpressionContextHere();
